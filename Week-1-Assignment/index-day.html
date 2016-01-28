@@ -1,0 +1,56 @@
+<!doctype html>
+
+<head>
+	<title>Demo Page</title>
+	<style>
+		body {
+			margin: 300px;
+			margin-top: 165px;
+		}
+
+		div {
+			color: white;
+			background-color: #EBF22B;
+			font-family: georgia, helvetica;
+			font-size: 24px;
+			line-height:40px;
+			padding: 50px;
+			text-align: center;
+		}
+
+		.second-div:hover{
+			padding: 200px;
+		}
+
+	</style>
+
+
+</head>
+
+<body>
+	<div class="first-div">
+		again and again
+	</div>
+
+	<div class="second-div">
+		I ask how high
+	</div>
+
+	<div class="third-div">
+		the snow is
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script>
+		$('.first-div').click(function () {
+			$(this).slideUp("slow");
+		});
+	</script>
+
+
+
+
+</body>
+
+</html>
