@@ -9,23 +9,25 @@
 		}
 		div {
 			color: white;
-			background-color: black;
 			font-family: georgia, helvetica;
 			font-size: 12px;
 			line-height:20px;
 			padding: 20px;
 			text-align: center;
 		}
+		html:active {
+			background: black;   
+		}
 
 		.first-div:hover{
 			color: black;
 		}
 
-		.third-div; {
+		.third-div {
 			height: 500px;
 		}
 
-		.really-tall; {
+		.really-tall {
 			height: 700px;
 		}
 	</style>
@@ -56,15 +58,10 @@
 
 	<script>
 		$('.second-div').click(function () {
-			$(this).toggleClass(".really-tall");
+			$(this).toggleClass("really-tall");
 		});
 	</script>
 
-	<script>
-		$('.first-div').click(function () {
-			$(this).toggleClass('.really-tall');
-		});
-	</script>
 
 
 </body>
