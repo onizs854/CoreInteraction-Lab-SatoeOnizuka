@@ -1,0 +1,80 @@
+body {
+  background-color: #add8e6;
+  text-align: center;
+}
+
+.header{
+  text-align: center;
+  font-family: helvetica;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 13pt;
+
+}
+.desert.place {
+
+  color: #a53d11;
+  background: #ffa500;
+  border: solid yellow 18px;
+  font-family: helvetica;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.desert.place-footer{
+  color: #a53d11;
+  background: #ffa500;
+  border: solid #add8e6 18px;
+  font-family: helvetica;
+  padding: 10px;
+  margin-left: -20px;
+  margin-right: -20px;
+
+}
+
+.jungle.place{
+
+  color: #f7ff00;
+  background: #006400;
+  border: solid #008000 18px;
+  font-family: helvetica;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.jungle.place-footer{
+
+  color: #f7ff00;
+  background: #006400;
+  border: solid #add8e6 18px;
+  font-family: helvetica;
+  padding: 10px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.city.place{
+
+  color: white;
+  background: #696969;
+  border: solid black 18px;
+  font-family: helvetica;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.city.place-footer{
+
+  color: white;
+  background: #696969;
+  border: solid #add8e6 18px;
+  font-family: helvetica;
+  padding: 10px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
