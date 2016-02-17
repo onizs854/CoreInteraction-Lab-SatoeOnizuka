@@ -1,0 +1,54 @@
+.left {
+	background-color: #e8a39f;
+	width: 400px;
+	height: 300px;
+	margin-top: -300px;
+}
+
+.right {
+	background-color: #f4bcd6;
+	width: 800px;
+	height: 300px;
+}
+
+.bottom {
+	background-color: #4b7fe8;
+	width: 800px;
+	height: 300px;
+	margin-top: -10px;
+}
+
+.square1 {
+	background-color: #fed100;
+	width: 130px;
+	height: 130px;
+	margin-top: -220px;
+	margin-left: 335px;
+	position: absolute;
+}
+
+.square {
+	background-color: #fed100;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%
+}
+
+#ctwo {
+	background-color: #fed100;
+	margin-top: 130px;
+	margin-left: 350px;
+	position: absolute;
+}
+
+#cthree {
+	margin-top: 130px;
+	margin-left: 390px;
+	position: absolute;
+}
+
+#cfour {
+	margin-top: 130px;
+	margin-left: 430px;
+	position: absolute;
+}

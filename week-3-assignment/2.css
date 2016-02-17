@@ -1,0 +1,46 @@
+.square {
+	width: 200px;
+	height: 200px;
+	background-color: #8a534f;
+}
+
+#two {
+	margin-left: 220px;
+	margin-top: -200px;
+}
+
+#three {
+	margin-left: 440px;
+	margin-top: -200px;
+}
+
+#four {
+	margin-top: 20px;
+}
+
+.circle {
+	background-color: #9a71dc;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+#cone {
+	margin-top: -350px;
+	margin-left: 5px;
+}
+
+#ctwo{
+	margin-top: 40px;
+	margin-left: 370px;
+}
+
+#cthree{
+	margin-top: -110px;
+	margin-left: 525px;
+}
+
+#cfour{
+	margin-top: 105px;
+	margin-left: 155px;
+}
