@@ -1,0 +1,31 @@
+.box {
+	width: 350px;
+	height: 100px;
+	background-color: #4b7fe8;
+}
+
+#two {
+	position: relative;
+	top: -100px;
+}
+
+#three {
+	position: relative;
+	top: -30px;
+	left: 70px;
+}
+
+#four {
+	position: relative;
+	top: -80px;
+}
+
+#five {
+	position: relative;
+	left: 70px;
+}
+
+#six {
+	position: relative;
+	top: -50px;
+}

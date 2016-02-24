@@ -1,0 +1,15 @@
+.box {
+	background-color: #4b7fe8;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+}
+
+.square {
+	background-color: #fed100;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 150px;
+	top: 150px;
+}

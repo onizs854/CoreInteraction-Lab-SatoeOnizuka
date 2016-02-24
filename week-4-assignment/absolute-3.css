@@ -1,0 +1,14 @@
+.box {
+	background-color: #4b7fe8;
+	width: 200px;
+	height: 400px;
+	position: absolute;
+}
+
+.square {
+	background-color: #fed100;
+	width: 200px;
+	height: 400px;
+	position: absolute;
+	left: 200px;
+}
