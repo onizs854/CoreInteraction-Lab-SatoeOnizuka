@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title>Grid Exercise</title>
+</head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="grid-exercise.css">
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
+<script>
+
+$(function() {
+  $('#options').change(function(){
+    $('.column').hide();
+    $('.' + $(this).val()).show();
+  });
+});
+
+var rowSelectors = [  
+  '.results-1',
+  '.results-2',
+  '.results-3'
+];
+
+while (rowSelectors.length) {
+  var selector = rowSelectors.splice(Math.floor (Math.random()*rowSelectors.length), 1)[0];
+  var element = $(selector);
+  $('.flex-container').append(element);
+}
+
+</script>
+
+<select id="options">
+	<option value="results-1">food</option>
+	<option value="results-2">dolls</option>
+	<option value="results-3">furniture</option>
+	<option value="results-4">flowers</option>
+	<option value="results-5">other</option>
+</select>
+
+<div class="outer-container">
+	<div class="flex-container">
+		<div class="column results-2"><img src="SO1.jpg"></div>
+		<div class="column results-1"><img src="SO2.jpg"></div>
+		<div class="column results-5"><img src="SO3.jpg"></div>
+		<div class="column results-2"><img src="SO4.jpg"></div>
+		<div class="column results-5"><img src="SO5.jpg"></div>
+		<div class="column results-1"><img src="SO6.jpg"></div>
+		<div class="column results-5"><img src="SO7.jpg"></div>
+		<div class="column results-1"><img src="SO8.jpg"></div>
+		<div class="column results-1"><img src="SO9.jpg"></div>
+		<div class="column results-4"><img src="SO10.jpg"></div>
+		<div class="column results-1"><img src="SO11.jpg"></div>
+		<div class="column results-2"><img src="SO12.jpg"></div>
+		<div class="column results-5"><img src="SO13.jpg"></div>
+		<div class="column results-1"><img src="SO14.jpg"></div>
+		<div class="column results-2"><img src="SO15.jpg"></div>
+		<div class="column results-4"><img src="SO16.jpg"></div>
+		<div class="column results-1"><img src="SO17.jpg"></div>
+		<div class="column results-1"><img src="SO18.jpg"></div>
+		<div class="column results-1"><img src="SO19.jpg"></div>
+		<div class="column results-5"><img src="SO20.jpg"></div>
+		<div class="column results-1"><img src="SO21.jpg"></div>
+	</div>
+</body>
+</html>

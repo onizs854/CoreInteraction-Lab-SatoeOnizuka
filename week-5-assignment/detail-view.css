@@ -1,0 +1,30 @@
+.showme{ 
+	display: none;
+}
+
+.title:hover .showme{
+	display : block;
+}
+
+.title {
+	font-family: futura;
+	font-size: 150px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+}
+
+.text {
+	font-family: futura;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+img {
+	width: 100vh;
+}
+
+#target {
+	width: 100vh;
+}

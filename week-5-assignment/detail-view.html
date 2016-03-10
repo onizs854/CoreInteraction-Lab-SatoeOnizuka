@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Detail View Page</title>
+</head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="detail-view.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<body>
+	<div class="title">dirt<div class="showme"><img src="SO11.jpg"></div></div>
+	<div class="text">pictures of random stuff on the ground</div>
+</body>
+
+<script>
+	var colors = ["#D6F5FF", "#CADDE3", "#ADEBFF", "#DBDBDB", "#D5E5EB", "#BDE5F2"];
+
+var currentColor = 0;
+function switchColor() {    
+    if (currentColor >= colors.length) currentColor = 0;
+    
+    $('body').css('background-color', colors[currentColor++]);
+    
+    setTimeout(switchColor, 400);
+}
+
+switchColor();
+</script>
+</html>
