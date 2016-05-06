@@ -76,24 +76,26 @@
 // }
 
 //7
-var object = ['a'=1, 'b'=2 ];
-var property = object.keys(varArray);
-console.log(property)
-
-function listProps() {
-	object.keys('varArray')
-	return property
+function listProps (argObject) {
+	for (var key in argObject) {
+		console.log(key);
+	}
 }
 
+listProps({
+	a: 1,
+	b: 2
+});
 
-// var propertyToAccess = 'a';
-// var testArray = size[propertyToAccess];
-// console.log(testArray);
 
+// var object = ['a'=1, 'b'=2 ];
+// var property = object.keys(varArray);
+// console.log(property)
 
-// Write a function called listProps that prints the name of each property in an object.
-
-// { a: 1, b: 2 } -> print 'a' then 'b'
+// function listProps() {
+// 	object.keys('varArray')
+// 	return property
+// }
 
 
 </script>

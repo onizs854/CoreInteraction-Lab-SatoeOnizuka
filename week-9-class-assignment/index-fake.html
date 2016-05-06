@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang-"en">
+<head>
+	<meta charset="utf-8">
+	<title>index-modern</title>
+	<style>
+		body {
+			margin-top: 100px;
+		}
+		div {
+			color: #FF3838;
+			font-family: futura;
+			font-size: 13px;
+			line-height:20px;
+			padding: 20px;
+			text-align: center;
+		}
+    .hoverable {
+      cursor:default;
+      color:#FFD6F4;
+      text-decoration:none;
+      font-size: 110px;
+    }
+    .hoverable .hover {
+      display:none;
+    }
+    .hoverable:hover .normal {
+      display:none;
+    }
+    .hoverable:hover .hover {
+      display:inline;
+    }
+	</style>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+
+<body>
+  <a href="javascript://" class="hoverable">
+    <span class="fade">wakened by pain</span><span class="hover">うたゝ寐の</span>
+    <span class="fade">from a dream of pain</span><span class="hover">うたゝ苦しき</span>
+    <span class="fade">I wipe the sweat</span><span class="hover">夢さめて</span>
+    <span class="fade">and rose petals</span><span class="hover">汗ふき居れば</span>
+    <span class="fade">scatter</span><span class="hover">薔薇の花散る</span>
+  </a>
+
+ <script>
+
+ $( "span" ).hover(
+  function() {
+    $( this ).append( $( "<span></span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
+
+ $("span")
+ $( "span.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").click();
+    });
+});
+</script>
+</head>
+<body>
+</br>
+</br>
+<button>Source</button>
+
+
+<p onclick="alert('http://jti.lib.virginia.edu/japanese/shiki/beichman/BeiShik.utf8.html')"></p>
+
+
+
+
+</body>
+
+</html>
+
+

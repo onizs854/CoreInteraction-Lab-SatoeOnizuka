@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <title>index-day</title>
+<head>
+  <meta charset="UTF-8">
+  <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <link rel="stylesheet" href="index-day.css">
+</head>
+
+<body>
+
+	<div class="outerContainer">
+		<div class="text" id="lineOne">
+			again and again
+		</div>
+	</div>
+
+	<div class="outerContainer">
+		<div class="text" id="lineTwo">
+			I ask how high
+		</div>
+	</div>
+
+	<div class="outerContainer">
+		<div class="text" id="lineThree">
+			the snow is
+		</div>
+	</div>
+
+
+</body>
+
+<script src="snowstorm.js"></script>
+<script>
+	$('#lineOne').click(function () {
+		$(this).slideUp("slow");
+	});
+
+
+// jQuery
+$('body').click(function (){
+	$('body').css("background-color", "#073141");
+});
+
+$('body').click(function (){
+	$('body').append("again and again ");
+});
+
+
+setTimeout(function(){
+	alert("again and again");
+}, 3000);
+
+</script>
+
+
+</html>

@@ -1,0 +1,34 @@
+body {
+	background-color: #3483df;
+	margin: 300px;
+	margin-top: 165px;
+	font-size: 5vh;
+	line-height: 300%;
+	text-align: center;
+	color: white;
+}
+
+/*.text {
+	font-size: 5vh;
+	line-height: 300%;
+	text-align: center;
+	color: white;
+}*/
+
+#lineTwo {
+	-webkit-transition: 2s;
+}
+
+div {
+/*	background-color: #EBF22B;*/
+/*	font-family: georgia, helvetica;
+	font-size: 24px;
+	line-height:40px;
+	padding: 50px;
+	text-align: center;
+	margin: 100px;*/
+}/*
+
+#lineTwo:hover{
+	padding: 100px;
+}*/
